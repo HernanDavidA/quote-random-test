@@ -38,7 +38,7 @@ export default function App() {
   };
 
   return (
-    <div className="container d-flex flex-column align-items-center vh-80 justify-content-center">
+    <div className="container d-flex flex-column align-items-center vh-75 justify-content-center">
       {currentQuote ? (
         <Container quote={currentQuote.quote} author={currentQuote.author} tags={currentQuote.tags} />
       ) : (
