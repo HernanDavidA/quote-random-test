@@ -9,7 +9,6 @@ interface QuoteDisplayProps {
       <div className="quote-container">
 
         <div> 
-            <h2 className="">Tags</h2>
             <div className="quote-tags">
                 {tags.map((tag) => (
                     <div key={tag} className="tag">
