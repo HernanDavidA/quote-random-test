@@ -12,7 +12,7 @@ interface QuoteDisplayProps {
             <h2 className="">Tags</h2>
             <div className="quote-tags">
                 {tags.map((tag) => (
-                    <div key={tag} className="px-2 py-1 bg-blue-500 text-white rounded-md">
+                    <div key={tag} className="tag">
                         {tag}
                     </div>
                 ))}
